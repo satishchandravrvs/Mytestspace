@@ -1,0 +1,8 @@
+pip install demoji
+import demoji
+pip install emoji
+import emoji
+
+print(emoji.emojize(":India:"))
+print(emoji.emojize(":books:"))
+print(emoji.emojize(":red_heart:"))

@@ -1,0 +1,20 @@
+pip install pdf2docx
+
+from pdf2docx import parse
+pdf_file = 'C:\Users\Raghu\Documents\Python Scripts\test'
+docx_file = 'C:\Users\Raghu\Documents\Python Scripts\sample.docx'
+
+parse(pdf_file, docx_file)
+
+
+2ND wAY
+
+pip install pdf2docx
+
+
+from pdf2docx import parse
+pdf_file = 'C:\Users\Raghu\Documents\Python Scripts\test'
+docx_file = 'C:\Users\Raghu\Documents\Python Scripts\sample.docx'
+cv = Coverter(pdf_file)
+cv.convert(docx_file)
+cv.close()
