@@ -1,0 +1,11 @@
+import urllib
+
+import urillib.request
+url=input("Enter Link to download PDF: ")
+Name=input("Enter a Name for your PDF file :")
+FileName = Name+ ".pdf"
+urllib.request.urlretrieve(url,FileName)
+
+#http://www.africau.edu/images/default/sample.pdf
+
+#pip install urllib will give an error as urllib is a standard  library now and can be imported
