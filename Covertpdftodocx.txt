@@ -12,7 +12,7 @@ parse(pdf_file, docx_file)
 pip install pdf2docx
 
 
-from pdf2docx import parse
+from pdf2docx import Converter
 pdf_file = 'C:\Users\Raghu\Documents\Python Scripts\test'
 docx_file = 'C:\Users\Raghu\Documents\Python Scripts\sample.docx'
 cv = Coverter(pdf_file)
